@@ -51,6 +51,7 @@
   color: #3c4858;
   font-size: 12spx;
   font-weight: 400;
+  /* background-color: lightgreen; */
 }
 
 .icon {
@@ -67,7 +68,7 @@
   border-radius: 100%;
   height: 35px;
   width: 35px;
-  font-size: 16px;
+  font-size: 19px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -100,7 +101,7 @@
 
 ul {
   display: flex;
-  width: 70%;
+  width: 64%;
   justify-content: space-evenly;
   justify-items: center;
   /* background-color: #2443ac; */
@@ -115,6 +116,9 @@ li {
   font-size: 13px;
   font-weight: 600;
 }
+li:hover {
+  color: #2443ac;
+}
 
 .main_div {
   display: flex;
@@ -126,19 +130,21 @@ li {
   height: 80vh;
   display: flex;
   justify-content: space-evenly;
-  /* background-color: lightgreen; */
+
   margin-top: 8rem;
 }
 
-.content h1 {
-  font-size: 45px;
+.content_h1 {
+  font-size: 41.5px;
   font-weight: 500;
-  line-height: 58.5px;
+  /* line-height: 58.5px; */
   text-decoration: none solid rgba(22, 28, 45);
 }
+
 .content p {
   /* background-color: aqua; */
-  height: 15vh;
+  height: 12vh;
+  margin-bottom: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -147,20 +153,20 @@ li {
   color: #8492a6;
 }
 .btn {
-  width: 63%;
+  width: 64%;
   display: flex;
   justify-content: space-between;
 }
 .btn1 {
   height: 42px;
-  width: 153.625px;
+  width: 163.625px;
   background-color: #2f55d4;
   color: white;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 500;
   border-radius: 6px;
   border-color: #2f55d4;
-  border-width: 1px solid #2f55d4;
+  /* border-width: 1px solid #2f55d4; */
   line-height: 24px;
   /* letter-spacing: 0.5px; */
 }
@@ -168,9 +174,9 @@ li {
   color: #2f55d4;
   height: 42px;
   width: 181.609px;
-  border-radius: 8px;
+  border-radius: 6px;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 500;
   border-color: #2f55d4;
   border-width: 1px;
   text-decoration: none solid rgb(255, 255, 255);
@@ -183,7 +189,7 @@ li {
 
 .cont {
   font-size: 16px;
-  /* background-color: lawngreen; */
+
   text-decoration: none solid rgb(22, 28, 45);
   height: 15vh;
   width: 100%;
@@ -239,7 +245,7 @@ li {
   justify-content: center;
   align-items: center;
   font-size: 30px;
-  font-weight: 600;
+  font-weight: 500;
   letter-spacing: 0.5px;
   text-decoration: none solid rgb(22, 28, 45);
   line-height: 39px;
@@ -275,21 +281,24 @@ li {
   color: #161c2d;
 }
 .b {
-  width: 80%;
-  height: 18vh;
+  width: 90%;
+  height: 13vh;
   display: flex;
   align-items: center;
   color: #8492a6;
   font-size: 16px;
+  line-height: 25px;
 }
 
 .c {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: flex-start;
-  font-size: 22px;
+  font-size: 16px;
   color: #8492a6;
-  /* background-color: pink; */
+  line-height: 28px;
+  /* background-color: #adb58b; */
 }
 .main_three {
   height: 130vh;
@@ -339,6 +348,28 @@ li {
   line-height: 39px;
   color: #161c2d;
 }
+.b_one {
+  width: 80%;
+  height: 16vh;
+  display: flex;
+  align-items: center;
+  color: #8492a6;
+  font-size: 16px;
+  /* background-color: pink; */
+}
+
+/* .c_one {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 16px;
+  color: #8492a6;
+  line-height: 2rem;
+  background-color: #adb58b;
+  height: 20vh;
+} */
+
 .login {
   height: 70vh;
 
@@ -380,8 +411,8 @@ li {
   border-radius: 6px;
   border: 1px solid #2f55d4;
   font-size: 16px;
-  font-weight: 600;
-  letter-spacing: 0.5px;
+  font-weight: 500;
+  /* letter-spacing: 0.5px; */
 }
 .main_four {
   height: 100vh;
@@ -405,27 +436,32 @@ li {
   align-items: center;
 }
 .c_one {
-  color: black;
+  color: #161c2d;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 20.8px;
   /* background-color: red; */
 }
 .c_two {
   /* background-color: blue; */
-  height: 65.5px;
+  height: 59.5px;
   width: 500px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 27.5px;
-  font-weight: 600;
+  font-weight: 500;
+  color: #161c2d;
 }
 
 .c_three {
   text-decoration: none solid rgb(132, 146, 166);
   font-size: 16px;
-  color: gray;
+  color: #8492a6;
+  margin-top: 15px;
+  width: 600px;
+  /* background-color: lightcoral; */
+  text-align: center;
 }
 .card_two {
   height: 50vh;
@@ -446,19 +482,19 @@ li {
   width: 350px;
 
   font-size: 16px;
-  color: gray;
+  color: #8492a6;
   border-radius: 6px;
   border: 1px solid #dee2e6;
   box-sizing: border-box;
 }
 .one_one {
-  font-size: 16px;
-  height: 26px;
-  width: 75px;
+  font-size: 5rem;
+  height: 30px;
+  width: 80px;
   /* background-color: blue; */
 }
 .two_two {
-  color: gray;
+  color: #8492a6;
   height: 100px;
   /* background-color: lightsalmon; */
   display: flex;
@@ -497,40 +533,35 @@ li {
 
 .part_one_contain {
   /* background-color: lightcoral; */
-  height: 30vh;
+  height: 27vh;
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
+  /* background-color: lawngreen; */
 }
 
-.part_one_contain h1 {
+.part_one_contain_span {
   /* background-color: red; */
+
   font-size: 30px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 39px;
   letter-spacing: 0.5px;
   text-decoration: none solid rgb(22, 28, 45);
   color: #161c2d;
   height: 39px;
   width: 451px;
+  /* background-color: aqua; */
 }
 .part_one_contain p {
-  /* background-color: gray; */
-  /* font-size: 16px;
-  font-weight: 600;
-  line-height: 25.4px;
-  letter-spacing: 0px;
-  text-decoration: none solid rgb(132, 146, 166);
-
-  color: #8492a6;
-  height: 51.1875px;
-  width: 451px; */
-
+  margin-top: 4px;
   text-decoration: none solid rgb(132, 142, 166);
   font-size: 16px;
   color: #8492a6;
+  line-height: 26px;
+  /* background-color: #adb58b; */
 }
 .buy {
   background-color: #2443ac;
@@ -557,17 +588,18 @@ li {
   align-items: center;
 }
 .dollar_one {
-  background-color: #ffffff;
+  /* background-color: red; */
   height: 425px;
-  border-color: #8492a6;
-  border-width: 2px;
+  border-color: #161c2d;
+  border-top-width: 3px solid #161c2d;
+  background-color: #ffffff;
   width: 299px;
   font-size: 16px;
   line-height: 24px;
   text-decoration: none solid rgb(22, 28, 45);
   padding: 48px 24px 48px 24px;
   box-sizing: border-box;
-  outline: rgb(255px, 0, 0) dashed 1px;
+  border: 3px solid rgba(211, 211, 211, 0.13);
   border-bottom: 3px solid #2f55d4;
   border-bottom-width: 3.5px;
   border-radius: 6px;
@@ -605,7 +637,7 @@ li {
   margin-top: 2rem;
   background-color: #2443ac;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 24px;
   letter-spacing: 0px;
   text-decoration: none solid rgb(132, 146, 166);
@@ -644,11 +676,10 @@ li {
   width: 260.5px;
 }
 .dollar_two_h4 {
-  /* background-color: yellow; */
   margin-top: 2.5rem;
   font-size: 24px;
   height: auto;
-
+  color: #152039;
   display: flex;
   justify-content: start;
   align-items: flex-start;
@@ -671,7 +702,7 @@ li {
 
 .main_six {
   height: 150vh;
-  /* background-color: salmon; */
+  background-color: #f8f9fc;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -718,11 +749,11 @@ li {
 .big {
   /* background-color: yellow; */
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 500;
   color: #161c2d;
   height: 26px;
   width: 518px;
-  margin-left: 2px;
+  margin-left: 5px;
   text-decoration: none solid rgb(22, 28, 45);
 }
 
@@ -732,7 +763,7 @@ li {
   font-size: 16px;
   line-height: 25.6px;
   margin-left: 24px;
-  margin-top: 6px;
+  margin-top: 7px;
   width: 550px;
   height: 76.7812px;
 }
@@ -758,7 +789,7 @@ li {
   justify-content: center;
   align-items: center;
   font-size: 30px;
-  font-weight: 600;
+  font-weight: 500;
   letter-spacing: 0.5px;
   text-decoration: none solid rgb(22, 28, 45);
   line-height: 39px;
@@ -781,7 +812,7 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 24px;
+  margin-top: 18px;
   background-color: #2443ac;
   font-size: 16px;
   font-weight: 600;
@@ -866,6 +897,10 @@ li {
   border-radius: 6px;
   margin-left: 4px;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* font-weight: 200; */
 }
 #social:hover {
   background-color: #2f55d4;
@@ -990,6 +1025,7 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-top: 1px solid #8492a6;
 }
 .p1 {
   /* background-color: yellow; */
